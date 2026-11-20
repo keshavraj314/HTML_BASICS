@@ -1,0 +1,13 @@
+body {
+    margin: 100px;
+    padding: 200px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red
+}
+
+#heading1 {
+    color: blue
+}

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title> My First Web Page </title>
+	</head>
+	<body>
+		Welcome
+		<h1>Welcome</h1>
+		<h6>Welcome</h6>
+		<p>Learn HTML</p>
+	</body>
+</html>

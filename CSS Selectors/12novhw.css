@@ -1,0 +1,123 @@
+
+/* ID Selector */
+#heading1 {
+    background-color: lightblue;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#heading2 {
+    background-color: lightgray;
+    color: darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Class Selector */
+.first {
+    background-color: lightgreen;
+    color: green;
+}
+
+.second {
+    color: black;
+}
+
+/* Element Selector */
+p {
+    font-size: 14px;
+}
+
+/* Descendant Selector */
+div b {
+    color: blue;
+}
+
+/* Child Selector */
+.child > p {
+    color: brown;
+}
+
+/* Adjacent Sibling Selector */
+h3 + p {
+    color: red;
+}
+
+/* General Sibling Selector */
+h3 ~ p {
+    background-color: lightgray;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: lightyellow;
+}
+
+input[type="password"] {
+    background-color: lightblue;
+}
+
+input[type="email"] {
+    background-color: lightgreen;
+}
+
+/* Pseudo-Class Selector */
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* ::first-letter
+   Styles the first letter of paragraph */
+.pseudo::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+/* ::first-line
+   Styles the first line of paragraph */
+.pseudo::first-line {
+    color: blue;
+}
+
+/* ::before
+   Inserts content before heading content */
+.after::before {
+    content: "★ ";
+    color: orange;
+}
+
+/* ::after
+   Inserts content after heading content */
+.after::after {
+    content: "!";
+    color: red;
+}
+
+/* ::selection
+   Styles text selected by the user */
+::selection {
+    background-color: yellow;
+    color: red;
+}
+
+/* Element selector - lowest specificity */
+p {
+    color: blue;
+}
+
+/* Class selector - higher than element selector */
+.text {
+    color: green;
+}
+
+/* ID selector - higher than class selector */
+#para {
+    color: red;
+}
